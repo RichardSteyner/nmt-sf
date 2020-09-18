@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" showHeader="false">
+<apex:pageBlock title="Attach File to {!Opportunity.Name}" tabStyle="Opportunity" mode="edit">
+<XFILES:XFileUpload />
+</apex:pageBlock>
+</apex:page>
